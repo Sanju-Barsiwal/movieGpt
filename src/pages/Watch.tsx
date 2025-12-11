@@ -210,9 +210,7 @@ const Watch: React.FC = () => {
                   <Heart className={`w-5 h-5 ${isLiked ? 'fill-primary text-primary' : ''}`} />
                   {isLiked ? 'Liked' : 'Like'}
                 </Button>
-                <Button variant="glass" size="icon" className="h-14 w-14">
-                  <Share2 className="w-5 h-5" />
-                </Button>
+                
               </div>
 
               {/* Overview */}
